@@ -1,0 +1,107 @@
+.titleimg img {
+	padding-left: 185px;
+	height: 200px;
+	width: auto;
+}
+
+
+.menu li {
+	display: inline;
+	border: 1.5px solid;
+	border-radius: 25px;
+	padding: 6px;
+	border-color: white;
+	font-size: 37px;
+	color: white;
+	font-family: Courier New, monospace;
+	font-stretch: semi-condensed;
+	
+	
+}
+
+.menu li:hover {
+	border: 1px solid gray;
+	background-color: gray;
+	cursor: pointer;
+}
+
+.active { 
+	color: white;
+	border: 1px solid gray;
+	background-color: gray;	
+}
+
+.menu li a { 
+	text-decoration: none;
+	color: white;
+}
+
+nav {
+	text-align: center;
+	border: 5pt;
+}
+
+body {
+	background-color: lightgray;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(inedawkuno.jpg);
+	background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+	margin: 10px 50px 	;
+}
+
+.slider {
+	width: 1000px;
+	height: 500px;
+	background: url(photo8.jpg);
+	background-size: cover;
+	border: 5px solid white;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	margin-top: 40px;
+	margin-left: 125px;
+	animation: slide 20s infinite;
+}
+@keyframes slide {
+	25%{
+	background: url(photo3.jpg);
+	background-size: cover;
+	}
+	50%{
+	background: url(photo2.jpg);
+	background-size: cover;
+	}
+	75%{
+	background: url(photo4.jpg);
+	background-size: cover;
+	}
+	100%{
+	background: url(photo8.jpg);
+	background-size: cover;
+	}
+}
+
+
+.text {
+	background: rgba(221,221,221,0.60);
+	border: 1px solid white;
+	text-align: center;
+	margin-left: 125px;
+	margin-right: 110px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+}
+
+.text p {
+	font-size: 25px;
+	font-family: Courier New;
+	color: black;
+}
+
+.text p a {
+	text-decoration: none;
+	color: navy;
+}
+

@@ -1,0 +1,59 @@
+.galiri {
+	margin: 40px 80px;
+	background-color: rgba(221, 221, 221, 0.25);
+	border:  1px solid gray;
+	border-radius: 10px;
+}
+
+.galiri img {
+	padding: 25px;
+}
+
+.manaragat {
+	height: 270px;
+	width: auto;
+	border-radius: 50px;
+}
+
+.pool {
+	height: 270px;
+	width: auto;
+	border-radius: 50px;
+}
+
+.park {
+	height: 300px;
+	width: auto;
+	border-radius: 50px;
+}
+
+.catbalogan {
+	height: 300px;
+	width: auto;
+	border-radius: 50px;
+}
+
+.beach {
+	height: 300px;
+	width: auto;
+	border-radius: 50px;
+}
+
+.simbahan {
+	height: 300px;
+	width: auto;
+	border-radius: 50px;
+}
+
+.sunset {
+	height: 300px;
+	width: auto;
+	border-radius: 50px;
+}
+
+.syudad {
+	height: 300px;
+	width: auto;
+	border-radius: 50px;
+}
+
